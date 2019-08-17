@@ -53,7 +53,7 @@ class App extends Component {
     render() {
         const { value, items } = this.state;
         return (
-            <div className="postList">
+            <div >
                 <input value={value} onChange={this.handleChange} />
                 <button onClick={() => this.addItem()}>Submit</button>
                 <PostList postList={items} updateScore={this.updateScore} removeItem={this.removeItem} />

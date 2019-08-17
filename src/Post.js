@@ -2,7 +2,7 @@ import React from 'react';
 
 const Post = ({ removeItem, title, incrementScore, score, decrementScore }) => {
     let style = {
-        display: "inline-flex"
+        display: "flex"
     }
 
     const PostButton = ({ handleClick, label }) => {
